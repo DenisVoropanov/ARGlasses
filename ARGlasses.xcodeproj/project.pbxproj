@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3CC7D2A528BB6C1E00B13C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7D2A428BB6C1E00B13C0E /* AppDelegate.swift */; };
 		3CC7D2A728BB6C1E00B13C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7D2A628BB6C1E00B13C0E /* ContentView.swift */; };
-		3CC7D2A928BB6C1E00B13C0E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7D2A828BB6C1E00B13C0E /* Experience.rcproject */; };
 		3CC7D2AB28BB6C2000B13C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7D2AA28BB6C2000B13C0E /* Assets.xcassets */; };
 		3CC7D2AE28BB6C2000B13C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7D2AD28BB6C2000B13C0E /* Preview Assets.xcassets */; };
 		3CC7D2B828BB6C2000B13C0E /* ARGlassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7D2B728BB6C2000B13C0E /* ARGlassesTests.swift */; };
@@ -38,7 +37,6 @@
 		3CC7D2A128BB6C1E00B13C0E /* ARGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC7D2A428BB6C1E00B13C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC7D2A628BB6C1E00B13C0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3CC7D2A828BB6C1E00B13C0E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		3CC7D2AA28BB6C2000B13C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC7D2AD28BB6C2000B13C0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CC7D2B328BB6C2000B13C0E /* ARGlassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARGlassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				3CC7D2A428BB6C1E00B13C0E /* AppDelegate.swift */,
 				3CC7D2A628BB6C1E00B13C0E /* ContentView.swift */,
-				3CC7D2A828BB6C1E00B13C0E /* Experience.rcproject */,
 				3CC7D2AA28BB6C2000B13C0E /* Assets.xcassets */,
 				3CC7D2AC28BB6C2000B13C0E /* Preview Content */,
 			);
@@ -262,7 +259,6 @@
 			files = (
 				3CC7D2A728BB6C1E00B13C0E /* ContentView.swift in Sources */,
 				3CC7D2A528BB6C1E00B13C0E /* AppDelegate.swift in Sources */,
-				3CC7D2A928BB6C1E00B13C0E /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARGlasses/Preview Content\"";
@@ -431,6 +428,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +436,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = buro.ap.ARGlasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARGlasses/Preview Content\"";
@@ -462,6 +462,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +470,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = buro.ap.ARGlasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
